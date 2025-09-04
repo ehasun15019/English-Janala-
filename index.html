@@ -26,7 +26,7 @@
   </head>
   <body>
     <!-- Navbar start -->
-    <div class="navbar bg-sky-100 shadow-sm">
+    <div class="navbar bg-sky-100 shadow-sm px-8">
       <div class="navbar-start">
         <div class="dropdown">
           <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -141,7 +141,114 @@
         />
       </div>
     </section>
-
     <!-- header end -->
+
+    <!-- Let's Learn Vocabularies start -->
+    <section class="container mx-auto px-4 md:px-8 lg:px-12 py-8 gap-8">
+      <h2 class="text-3xl md:text-3xl font-bold leading-snug text-center">
+        <span class="text-sky-400">Let's</span> Learn Vocabularies
+      </h2>
+
+      <div
+        id="level-container"
+        class="flex justify-center gap-4 mt-3 flex-wrap"
+      >
+        <!-- Here have js fundamental -->
+      </div>
+
+      <div
+        id="word-container"
+        class="bg-gray-100 p-10 w-11/12 mx-auto my-10 grid lg:grid-cols-3 md:grid-cols-2 gap-5 sm:grid-cols-1 place-items-center"
+      >
+        <div class="col-span-3 flex flex-col items-center justify-center h-40">
+          <p class="text-lg font-medium">আপনি এখনো কোন Lesson Select করেন</p>
+          <h4 class="text-xl font-bold">একটি Lesson Select করুন।</h4>
+        </div>
+      </div>
+    </section>
+    <!-- Let's Learn Vocabularies end -->
+
+    <!-- FAQ start -->
+    <section class="container mx-auto px-4 md:px-8 lg:px-12 py-8 gap-8">
+      <h2 class="text-3xl md:text-3xl font-bold leading-snug text-center">
+        <span class="text-sky-400">Frequently</span> Asked Questions
+      </h2>
+
+      <div class="accrodion my-5">
+        <div
+          class="collapse collapse-plus bg-base-100 border border-base-300 mt-2"
+        >
+          <input type="radio" name="my-accordion-3" checked="checked" />
+          <div class="collapse-title font-semibold">
+            1.How can I start learning English on this website?
+          </div>
+          <div class="collapse-content text-sm">
+            You can start by exploring our beginner lessons, interactive
+            exercises, and quizzes. We also offer structured courses to guide
+            you step by step.
+          </div>
+        </div>
+
+        <div
+          class="collapse collapse-plus bg-base-100 border border-base-300 mt-2"
+        >
+          <input type="radio" name="my-accordion-3" />
+          <div class="collapse-title font-semibold">
+            2.Is this website free to use?
+          </div>
+          <div class="collapse-content text-sm">Yes, off-course</div>
+        </div>
+
+        <div
+          class="collapse collapse-plus bg-base-100 border border-base-300 mt-2"
+        >
+          <input type="radio" name="my-accordion-3" />
+          <div class="collapse-title font-semibold">
+            3. Do I need to create an account?
+          </div>
+          <div class="collapse-content text-sm">No Need</div>
+        </div>
+      </div>
+    </section>
+    <!-- FAQ end -->
+
+    <!-- Footer start -->
+    <footer class="bg-sky-200 px-8 py-6">
+      <div
+        class="flex flex-col md:flex-row md:justify-between md:items-center gap-6"
+      >
+        <!-- Left Section -->
+        <div class="text-center md:text-left">
+          <a
+            href="index.html"
+            class="text-xl flex justify-center md:justify-start items-center gap-2 mb-2"
+          >
+            <span class="text-lg font-bold">English</span>
+            <img src="./assets/logo.png" alt="" class="w-8 h-8" />
+            <span class="text-lg font-semibold">জানালা</span>
+          </a>
+          <p class="text-sm">ইংরেজি শিখুন সহজে</p>
+          <p class="text-sm">Providing ED-Tech Applications since 2025</p>
+        </div>
+
+        <!-- Right Section -->
+        <div class="text-center md:text-right">
+          <p class="font-medium mb-2">Follow us</p>
+          <div class="socials flex justify-center md:justify-end gap-4 text-xl">
+            <i
+              class="fa-brands fa-facebook cursor-pointer hover:text-blue-600"
+            ></i>
+            <i
+              class="fa-brands fa-youtube cursor-pointer hover:text-red-600"
+            ></i>
+            <i
+              class="fa-brands fa-instagram cursor-pointer hover:text-pink-500"
+            ></i>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./script/index.js"></script>
   </body>
 </html>
