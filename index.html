@@ -25,6 +25,75 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1 class=""></h1>
+    <!-- Navbar start -->
+    <div class="navbar bg-base-100 shadow-sm">
+      <div class="navbar-start">
+        <div class="dropdown">
+          <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-5 w-5"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M4 6h16M4 12h8m-8 6h16"
+              />
+            </svg>
+          </div>
+          <ul
+            tabindex="0"
+            class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow gap-3"
+          >
+            <a href="">
+              <i class="fa-solid fa-circle-question"></i>
+              Faq
+            </a>
+
+            <a href=""> <i class="fa-solid fa-book-open"></i> Book </a>
+
+            <a href="">
+              <i
+                class="fa-solid fa-arrow-up-from-bracket rotate-2"
+                style="transform: rotate(90deg)"
+              >
+              </i>
+              Logout
+            </a>
+          </ul>
+        </div>
+        <a href="index.html" class="text-xl flex items-center">
+          <span class="text-lg font-bold">English</span>
+          <img src="./assets/logo.png" alt="" />
+          <span class="text-lg font-semibold">জানালা</span>
+        </a>
+      </div>
+      <div class="navbar-end hidden lg:flex">
+        <ul class="menu menu-horizontal px-1 flex gap-3">
+          <a href="" class="btn btn-outline btn-primary">
+            <i class="fa-solid fa-circle-question"></i>
+            Faq
+          </a>
+
+          <a href="" class="btn btn-outline btn-primary">
+            <i class="fa-solid fa-book-open"></i> Book
+          </a>
+
+          <a href="" class="btn btn-outline btn-primary">
+            <i
+              class="fa-solid fa-arrow-up-from-bracket rotate-2"
+              style="transform: rotate(90deg)"
+            >
+            </i>
+            Logout
+          </a>
+        </ul>
+      </div>
+    </div>
+    <!-- Navbar end -->
   </body>
 </html>
